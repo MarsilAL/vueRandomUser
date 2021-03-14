@@ -1,0 +1,48 @@
+*{
+    margin: 4%;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+}
+#app{
+    box-shadow: 1px 2px 20px ;
+    border-radius: 25px;
+}
+
+button{
+    width: 50%;
+    padding: 4px;
+    font-size: 18px;
+}
+button:hover{
+    color: #ffff;
+    box-shadow: 1px 2px 20px  rgb(67, 63, 71);
+}
+button:focus-visible{
+    box-shadow: 3px 3px 35px rgb(76, 14, 134);
+
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px rgb(76, 14, 134);
+}
+img:hover{
+    box-shadow: 3px 3px 25px rgb(76, 14, 134);
+
+}
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(76, 14, 134);
+}
+
+.male {
+    border-color: steelblue;
+    background-color: steelblue;
+    box-shadow: 3px 3px 15px steelblue;
+}
+.female {
+    border-color: pink;
+    background-color: pink;
+    box-shadow: 3px 3px 15px pink;
+}
